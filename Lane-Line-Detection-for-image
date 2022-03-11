@@ -25,7 +25,7 @@ image = cv2.imread(r'C:\Users\AI\Downloads\test_image.jpg')
 image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
 print(image.shape)
 h = image.shape[0]
-w = image.shape[1]
+w = image.shape[1] 
 ROI_vertices = [(0,h),(w/2,h/2),(w,h)]
 
 gray_image = cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
